@@ -43,12 +43,8 @@ margin: 10px;
     grid-gap:20px;
 }
 html,body{
-	font-family: 'Palette Mosaic', cursive;
-	background: url("https://cdn.wallpapersafari.com/39/71/0U2L6G.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-color: gray;
+	font-family:cursive;
 
 }
 .item1:hover{
@@ -102,24 +98,27 @@ img{
 @media (min-width:992px){
 #bg1{
 width:30%;
+position: relative;
+left: 50px;
 }
 #bg2
 {
-width:30%;
+width:30%;position: relative;
+left: 45px;
 }
 #bg3
 {
 width:30%;
 position:relative;
-right:5px;
+left:40px;
 }
 }
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:700px) and (max-width:991px){
 
 #bg1{
 position:relative;
-left:50px;
+left:25px;
 width:45%;
 margin-right: 10px;
 
@@ -127,7 +126,7 @@ margin-right: 10px;
 
 #bg2{
 position:relative;
-left:50px;
+left:15px;
 float:right;
 width:45%;
 clear:right;
@@ -138,37 +137,55 @@ width:90%;
 position:relative;
 left:30px;
 margin-right:5px;
+float: center;
 
 }
 }
 
-@media(max-width:767px){
+@media(max-width:699px){
 
+.col-xs-12{
+	width: 95%;
+	float: center;
+}
 #bg1{
 position:relative;
-left:50px;
-width:80%;
+left:10px;
+width:90%;
 float:center;
+font-size: x-small;
 
 }
 
 #bg2{
 position:relative;
-left:50px;
-width:80%;
+left:10px;
+width:90%;
 float:center;
+font-size:x-small;
 
 }
 
 #bg3{
 position:relative;
-left:50px;
-width:80%;
+left:10px;
+width:90%;
 float:center;
+font-size:x-small;
+}
+#title{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
 
 }
 }
 .buffer{
-	height: 50px;
+	height: 90px;
 }
 
+.color-panel{
+	background-color:lightpink;
+}
