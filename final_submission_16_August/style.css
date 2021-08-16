@@ -1,0 +1,210 @@
+
+#title,#company_name{
+	text-align: center;
+	font-size: 70px;
+	color: blue;
+	font-weight: 300;
+	
+	text-transform: uppercase;
+	font-family: 'Palette Mosaic', cursive;
+}
+#bg1
+{
+	background-color:slategrey;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+
+box-sizing: border-box;
+margin: 10px;
+	
+
+}
+#bg2{
+	background-color:palegreen;
+	text-align: center;
+width: 300px;
+	height: 300px;
+	
+	box-sizing: border-box;
+margin: 10px;
+	
+
+}
+#bg3{
+	background-color:pink;
+	text-align: center;
+width: 300px;
+	height: 300px;box-sizing: border-box;
+margin: 10px;
+	
+
+}
+.container {
+	display: grid;
+    grid-gap:20px;
+}
+html,body{
+	background-color:bisque;
+	font-family:cursive;
+
+}
+.item1:hover{
+	background-color:lightyellow;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+.item2:hover{
+	background-color:palegreen;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+.item3:hover{
+	background-color:rosybrown;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+
+
+
+}
+nav{
+	background-color:mediumaquamarine;
+}
+
+img{
+	height: 90px;
+	width: 90px;
+}
+ .bg{
+ 	border-color: cyan;
+ }
+ #title_logo{
+ 	font-size: 2em;
+ }
+
+
+
+@media (min-width:992px){
+#bg1{
+width:30%;
+position: relative;
+left: 50px;
+}
+#bg2
+{
+width:30%;position: relative;
+left: 45px;
+}
+#bg3
+{
+width:30%;
+position:relative;
+left:40px;
+}
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+#bg1{
+position:relative;
+left:25px;
+width:45%;
+margin-right: 10px;
+
+}
+
+#bg2{
+position:relative;
+left:15px;
+float:right;
+width:45%;
+clear:right;
+}
+
+#bg3{
+width:90%;
+position:relative;
+left:30px;
+margin-right:5px;
+float: center;
+
+}
+}
+
+@media(max-width:768px){
+
+.col-xs-12{
+	width: 95%;
+	float: center;
+}
+#bg1{
+position:relative;
+left:10px;
+width:90%;
+float:center;
+font-size: x-small;
+
+}
+
+#bg2{
+position:relative;
+left:10px;
+width:90%;
+float:center;
+font-size:x-small;
+
+}
+
+#bg3{
+position:relative;
+left:10px;
+width:90%;
+float:center;
+font-size:x-small;
+}
+
+
+
+	.item1{
+	background-color:lavender;
+	
+}
+.item2{
+	background-color:dimgrey;
+
+}
+.item3{
+	background-color:lightyellow;
+
+
+
+}
+#company_name,#title{
+	text-align: center;
+	font-size:130%;
+	color: blue;
+	
+	text-transform: uppercase;
+}
+}
+
+
+.buffer{
+	height: 50px;
+}
+
+.color-panel{
+	background-color:lightpink;
+
+}
+a{
+	text-align: center;
+	font-color: blue;
+}
+ .navbar-nav {
+            margin-left: auto;
+        }
