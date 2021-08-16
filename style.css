@@ -1,0 +1,174 @@
+
+#title{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	font: 2rem;
+	text-transform: uppercase;
+}
+#bg1
+{
+	background-color:powderblue;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+
+box-sizing: border-box;
+margin: 10px;
+	
+
+}
+#bg2{
+	background-color:palegreen;
+	text-align: center;
+width: 300px;
+	height: 300px;
+	
+	box-sizing: border-box;
+margin: 10px;
+	
+
+}
+#bg3{
+	background-color:pink;
+	text-align: center;
+width: 300px;
+	height: 300px;box-sizing: border-box;
+margin: 10px;
+	
+
+}
+.container {
+	display: grid;
+    grid-gap:20px;
+}
+html,body{
+	font-family: 'Palette Mosaic', cursive;
+	background: url("https://cdn.wallpapersafari.com/39/71/0U2L6G.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.item1:hover{
+	background-color: pink;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+.item2:hover{
+	background-color:palegreen;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+.item3:hover{
+	background-color:rosybrown;
+	font-size: 1.5em;
+	border:1 px solid black;
+	border-width: 2px;
+}
+
+.item1{
+	background-color:lavender;
+	
+}
+.item2{
+	background-color:dimgrey;
+
+}
+.item3{
+	background-color:lightyellow;
+
+}
+nav{
+	background-color:mediumaquamarine;
+}
+
+img{
+	height: 90px;
+	width: 90px;
+}
+ .bg{
+ 	border-color: cyan;
+ }
+ #title_logo{
+ 	font-size: 2em;
+ }
+
+
+
+@media (min-width:992px){
+#bg1{
+width:30%;
+}
+#bg2
+{
+width:30%;
+}
+#bg3
+{
+width:30%;
+position:relative;
+right:5px;
+}
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+#bg1{
+position:relative;
+left:50px;
+width:45%;
+margin-right: 10px;
+
+}
+
+#bg2{
+position:relative;
+left:50px;
+float:right;
+width:45%;
+clear:right;
+}
+
+#bg3{
+width:90%;
+position:relative;
+left:30px;
+margin-right:5px;
+
+}
+}
+
+@media(max-width:767px){
+
+#bg1{
+position:relative;
+left:50px;
+width:80%;
+float:center;
+
+}
+
+#bg2{
+position:relative;
+left:50px;
+width:80%;
+float:center;
+
+}
+
+#bg3{
+position:relative;
+left:50px;
+width:80%;
+float:center;
+
+}
+}
+.buffer{
+	height: 50px;
+}
+
